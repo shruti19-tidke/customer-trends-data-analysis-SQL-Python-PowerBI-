@@ -23,21 +23,26 @@ Behavioral Data: Discount Applied, Promo Code Used, Purchase Frequency, Review R
 
 🧹 Data Preprocessing
 Loaded dataset using Pandas
+
 Checked structure using df.info() and df.describe()
+
 Handled missing values using median imputation (category-wise)
+
 Standardized column names to snake_case
+
 Removed redundant column: promo_code_used
+
 ⚙️ Feature Engineering
 Created age_group from Age column
 Derived purchase_frequency_days
 Validated and cleaned inconsistent data
+
 🗄️ Database Integration
 Connected Python with PostgreSQL
 Stored cleaned dataset for SQL-based analysis
+
 📈 Data Analysis (SQL)
-
 Key business insights extracted using SQL:
-
 Revenue comparison by gender
 High-spending customers using discounts
 Top 5 highest-rated products
@@ -51,13 +56,14 @@ Loyal
 Top 3 products per category
 Repeat buyers vs subscription trend
 Revenue contribution by age group
+
 📊 Dashboard
 
 An interactive dashboard was created using Power BI to visualize:
-
 Revenue trends
 Customer segments
 Product performance
+
 Purchase behavior
 💡 Business Recommendations
 🚀 Promote subscription plans with exclusive benefits
@@ -65,8 +71,9 @@ Purchase behavior
 💰 Optimize discount strategies
 🛒 Highlight top-performing products
 📢 Focus marketing on high-value customer groups
+
 🛠️ Technologies Used
-Python (Pandas, NumPy)
+Python (Pandas)
 SQL (PostgreSQL)
 Power BI
 
