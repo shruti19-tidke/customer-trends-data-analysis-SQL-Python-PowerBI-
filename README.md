@@ -16,7 +16,9 @@ Total Rows: 3,900
 Total Columns: 18
 🔑 Key Features:
 Customer Demographics: Age, Gender, Location, Subscription Status
+
 Purchase Details: Item Purchased, Category, Amount, Season, Size, Color
+
 Behavioral Data: Discount Applied, Promo Code Used, Purchase Frequency, Review Rating, Shipping Type
 
 ⚠️ Missing values were found in the Review Rating column.
@@ -42,20 +44,30 @@ Connected Python with PostgreSQL
 Stored cleaned dataset for SQL-based analysis
 
 📈 Data Analysis (SQL)
-Key business insights extracted using SQL:
-Revenue comparison by gender
-High-spending customers using discounts
-Top 5 highest-rated products
-Purchase behavior by shipping type
-Subscribers vs Non-subscribers analysis
-Discount-dependent products
-Customer segmentation:
+1.Key business insights extracted using SQL:
+
+2.Revenue comparison by gender
+
+3.High-spending customers using discounts
+
+4.Top 5 highest-rated products
+
+5.Purchase behavior by shipping type
+
+6.Subscribers vs Non-subscribers analysis
+
+7.Discount-dependent products
+
+8.Customer segmentation:
 New
 Returning
 Loyal
-Top 3 products per category
-Repeat buyers vs subscription trend
-Revenue contribution by age group
+
+9.Top 3 products per category
+
+10.Repeat buyers vs subscription trend
+
+
 
 📊 Dashboard
 
@@ -66,10 +78,15 @@ Product performance
 
 Purchase behavior
 💡 Business Recommendations
+
 🚀 Promote subscription plans with exclusive benefits
+
 🎯 Implement customer loyalty programs
+
 💰 Optimize discount strategies
+
 🛒 Highlight top-performing products
+
 📢 Focus marketing on high-value customer groups
 
 🛠️ Technologies Used
